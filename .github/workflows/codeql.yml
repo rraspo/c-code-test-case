@@ -49,7 +49,7 @@ jobs:
     - name: Run CMake
       env:
         CC: ${{ matrix.compiler }}
-      run: cmake main.c
+      run: cmake
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
